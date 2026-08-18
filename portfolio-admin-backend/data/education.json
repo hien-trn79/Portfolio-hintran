@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "university": "Can Tho University",
+    "universityVI": "Trường Đại học Cần Thơ",
+    "major": "Software Engineering",
+    "majorVI": "Kỹ thuật Phần mềm",
+    "currentGpa": "3.89",
+    "maxGpa": "4.0",
+    "period": "2023 – Present",
+    "periodVI": "2023 – Hiện tại",
+    "isDeleted": false
+  }
+]

@@ -1,0 +1,19 @@
+<svg width="640" height="200" viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon mark, scaled + repositioned -->
+  <g transform="translate(20,20) scale(0.667)">
+    <rect x="44" y="44" width="30" height="152" rx="8" fill="#0B1B2E"/>
+    <rect x="166" y="44" width="30" height="152" rx="8" fill="#0B1B2E"/>
+    <rect x="92" y="88"  width="56" height="14" rx="4" fill="#64B5F6"/>
+    <rect x="83" y="111" width="74" height="14" rx="4" fill="#2196F3"/>
+    <rect x="74" y="134" width="92" height="14" rx="4" fill="#0D47A1"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="200" y="112" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="#0B1B2E" letter-spacing="-1">Hin<tspan fill="#64748B" font-weight="500">Tran</tspan></text>
+
+  <!-- Accent rule under "Tran", echoes the API/middle layer color -->
+  <rect x="330" y="128" width="106" height="5" rx="2.5" fill="#2196F3"/>
+
+  <!-- Tagline -->
+  <text x="200" y="158" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="#64748B">FULLSTACK DEVELOPER</text>
+</svg>

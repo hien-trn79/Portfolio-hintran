@@ -1,0 +1,166 @@
+{
+  "en": {
+    "nav": {
+      "info": "Info",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "hero": {
+      "role": "FULLSTACK DEVELOPER",
+      "name": "TRAN THI THUY HIEN",
+      "subtitle": "Software Engineering Student",
+      "birth": "Birth",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Ninh Kieu, Can Tho City",
+      "linkedin": "LinkedIn",
+      "viewProjects": "View My Projects",
+      "contactMe": "Contact Me",
+      "position": "Fullstack Developer"
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "Fourth-year Software Engineering student at Can Tho University (GPA: 3.89/4.0), specializing in WebGIS and Spatial Data Engineering. Led the back-end and mapping development of CTU Campus 3D Map, an indoor/outdoor navigation system that converts AutoCAD architectural blueprints into structured GIS layers and renders interactive 3D maps with MapLibre GL JS, powered by A*/Dijkstra routing on PostgreSQL/PostGIS and GeoServer for real-time route updates. Also built the full-stack backend for ReGreen, an AI-powered sustainable e-commerce platform, delivering 50+ RESTful APIs with Java/Spring Boot and integrating a RAG-based AI chatbot (Spring AI, Gemini, pgvector) for citation-backed recommendations. Combines strong spatial engineering skills with full-stack development experience, aiming to contribute as a WebGIS/GIS Engineer Intern building scalable, location-based solutions.",
+      "frontend": "Frontend Development",
+      "frontendDesc": "Building fluid, highly responsive user interfaces using React, TypeScript, and modern styling solutions like Tailwind CSS.",
+      "backend": "Backend Development",
+      "backendDesc": "Developing high-performance, robust, and secure RESTful APIs using Java Spring Boot, Node.js, and object relational mapping.",
+      "database": "Database & System Design",
+      "databaseDesc": "Designing scalable, clean database schemas, analyzing queries, and structuring optimized indexes with MySQL and PostgreSQL."
+    },
+    "education": {
+      "title": "Education",
+      "university": "Can Tho University",
+      "major": "Software Engineering",
+      "gpa": "Cumulative GPA:",
+      "currentGpa": "3.89",
+      "period": "2023 – Present"
+    },
+    "skills": {
+      "title": "Skills & Technologies"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "viewProject": "View Project",
+      "repository": "Repository",
+      "overview": "Overview",
+      "features": "Key Features",
+      "responsibilities": "My Responsibilities",
+      "challenges": "Challenges & Solutions",
+      "techStack": "Tech Stack",
+      "teamSize": "Team Size",
+      "duration": "Duration",
+      "role": "Role",
+      "liveDemo": "Live Demo",
+      "viewRepo": "View Repository",
+      "close": "Close"
+    },
+    "contact": {
+      "title": "Let's Work Together",
+      "subtitle": "Feel free to reach out if you would like to discuss a project, internship opportunity, or collaboration.",
+      "emailLabel": "EMAIL ME AT",
+      "phoneLabel": "CALL ME ON",
+      "linkedinLabel": "CONNECT WITH ME",
+      "githubLabel": "VIEW MY REPOS",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "emailField": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Type your message here...",
+      "send": "Send Message",
+      "successTitle": "Message Sent!",
+      "successMsg": "Thank you for reaching out. I will get back to you as soon as possible.",
+      "required": "This field is required.",
+      "invalidEmail": "Please enter a valid email address."
+    },
+    "footer": {
+      "copyright": "© 2026 HinTran. All rights reserved."
+    }
+  },
+  "vi": {
+    "nav": {
+      "info": "Thông tin",
+      "education": "Học vấn",
+      "skills": "Kỹ năng",
+      "projects": "Dự án",
+      "contact": "Liên hệ"
+    },
+    "hero": {
+      "role": "FULLSTACK DEVELOPER",
+      "name": "TRẦN THỊ THÚY HIỀN",
+      "subtitle": "Sinh viên Kỹ thuật Phần mềm & Nhà phát triển Fullstack",
+      "birth": "Ngày sinh",
+      "gender": "Giới tính",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "address": "phường Ninh Kiều, thành phố Cần Thơ",
+      "linkedin": "LinkedIn",
+      "viewProjects": "Xem Dự Án",
+      "contactMe": "Liên Hệ",
+      "position": "Fullstack Developer"
+    },
+    "about": {
+      "title": "Về Tôi",
+      "subtitle": "Sinh viên năm 4 ngành Kỹ thuật Phần mềm tại Trường Đại học Cần Thơ (GPA: 3.89/4.0), chuyên sâu về WebGIS và Kỹ thuật Dữ liệu Không gian. Đảm nhận vai trò phát triển back-end và bản đồ chính cho dự án CTU Campus 3D Map — hệ thống định vị trong/ngoài nhà, chuyển đổi bản vẽ kiến trúc AutoCAD thành các lớp dữ liệu GIS có cấu trúc và hiển thị bản đồ 3D tương tác bằng MapLibre GL JS, kết hợp thuật toán định tuyến A*/Dijkstra trên PostgreSQL/PostGIS và GeoServer để cập nhật lộ trình theo thời gian thực. Đồng thời xây dựng phần backend cho ReGreen, nền tảng thương mại điện tử bền vững tích hợp AI, với hơn 50 RESTful API bằng Java/Spring Boot và chatbot AI theo mô hình RAG (Spring AI, Gemini, pgvector) đưa ra gợi ý có trích dẫn nguồn. Kết hợp năng lực kỹ thuật không gian vững chắc với kinh nghiệm phát triển full-stack, mong muốn đóng góp ở vị trí WebGIS/GIS Engineer Intern để xây dựng các giải pháp định vị có khả năng mở rộng.",
+      "frontend": "Phát triển Frontend",
+      "frontendDesc": "Xây dựng giao diện người dùng mượt mà, đáp ứng cao bằng React, TypeScript và các giải pháp tạo kiểu hiện đại như Tailwind CSS.",
+      "backend": "Phát triển Backend",
+      "backendDesc": "Phát triển RESTful API hiệu suất cao, mạnh mẽ và bảo mật bằng Java Spring Boot, Node.js và ánh xạ quan hệ đối tượng.",
+      "database": "Cơ sở dữ liệu & Thiết kế hệ thống",
+      "databaseDesc": "Thiết kế schema cơ sở dữ liệu có thể mở rộng, phân tích truy vấn và cấu trúc chỉ mục tối ưu với MySQL và PostgreSQL."
+    },
+    "education": {
+      "title": "Học Vấn",
+      "university": "Trường Đại học Cần Thơ",
+      "major": "Kỹ thuật Phần mềm",
+      "gpa": "GPA tích lũy:",
+      "currentGpa": "3.89",
+      "period": "2023 – Hiện tại"
+    },
+    "skills": {
+      "title": "Kỹ Năng & Công Nghệ"
+    },
+    "projects": {
+      "title": "Dự Án Nổi Bật",
+      "viewProject": "Xem Dự Án",
+      "repository": "Kho lưu trữ",
+      "overview": "Tổng quan",
+      "features": "Tính năng chính",
+      "responsibilities": "Trách nhiệm của tôi",
+      "challenges": "Thách thức & Giải pháp",
+      "techStack": "Công nghệ sử dụng",
+      "teamSize": "Quy mô nhóm",
+      "duration": "Thời gian",
+      "role": "Vai trò",
+      "liveDemo": "Xem Demo",
+      "viewRepo": "Xem Repository",
+      "close": "Đóng"
+    },
+    "contact": {
+      "title": "Hãy Cùng Làm Việc",
+      "subtitle": "Hãy liên hệ nếu bạn muốn thảo luận về dự án, cơ hội thực tập hoặc hợp tác.",
+      "emailLabel": "GỬI EMAIL CHO TÔI",
+      "phoneLabel": "GỌI CHO TÔI",
+      "linkedinLabel": "KẾT NỐI VỚI TÔI",
+      "githubLabel": "XEM REPOS CỦA TÔI",
+      "nameLabel": "Họ và tên",
+      "namePlaceholder": "Nhập họ và tên",
+      "emailField": "Địa chỉ Email",
+      "emailPlaceholder": "Nhập địa chỉ email",
+      "messageLabel": "Tin nhắn",
+      "messagePlaceholder": "Nhập tin nhắn của bạn...",
+      "send": "Gửi Tin Nhắn",
+      "successTitle": "Đã gửi tin nhắn!",
+      "successMsg": "Cảm ơn bạn đã liên hệ. Tôi sẽ phản hồi sớm nhất có thể.",
+      "required": "Trường này là bắt buộc.",
+      "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ."
+    },
+    "footer": {
+      "copyright": "© 2026 HinTran. Bảo lưu mọi quyền."
+    }
+  }
+}

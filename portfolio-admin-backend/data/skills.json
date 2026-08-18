@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "category": "Frontend",
+    "skills": ["ReactJS", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Vite", "React Router"]
+  },
+  {
+    "id": 2,
+    "category": "Backend",
+    "skills": ["Java", "Spring Boot", "Spring Security", "Node.js"]
+  },
+  {
+    "id": 3,
+    "category": "Database",
+    "skills": ["PostgreSQL", "MySQL", "MongoDB", "PostGIS"]
+  },
+  {
+    "id": 4,
+    "category": "Tools",
+    "skills": ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "Postman", "QGIS"]
+  },
+  {
+    "id": 5,
+    "category": "Languages",
+    "skills": ["Java", "JavaScript", "TypeScript", "SQL", "C"]
+  }
+]

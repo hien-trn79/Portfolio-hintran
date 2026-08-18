@@ -21,6 +21,12 @@ public class MeController {
     public List<MeResponse> getMe() {
         return service.getAll();
     }
+
+    // [GET] /api/me/{meId}
+    @GetMapping("/{meId}")
+    public MeResponse getMeById(@PathVariable Integer meId) {
+        return service.getById(meId);
+    }
     // [POST] /api/me
     @PostMapping
     public MeResponse createMe(@RequestBody MeRequest meRequest) {

@@ -25,6 +25,11 @@ public class MeServiceImpl implements MeService {
                 .toList();
     }
 
+    public MeResponse getById(Integer meId) {
+        Me me = repository.findById(meId).orElseThrow(() -> new RuntimeException("Me not found"));
+        return mapper.toResponse(me);
+    }
+
     @Override
     public MeResponse getMe() {
         Me me = repository.findById(1).orElseThrow(() -> new RuntimeException("Me not found"));

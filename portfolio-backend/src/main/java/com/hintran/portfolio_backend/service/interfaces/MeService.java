@@ -9,6 +9,8 @@ import java.util.List;
 public interface MeService {
     List<MeResponse> getAll();
 
+    MeResponse getById(Integer meId);
+
     MeResponse create(MeRequest request);
 
     MeResponse getMe();

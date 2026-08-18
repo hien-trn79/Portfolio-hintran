@@ -1,0 +1,602 @@
+Build a complete, production-quality, responsive ONE-PAGE personal portfolio website based on the 4 attached Figma frames.
+
+IMPORTANT:
+The attached Figma frames are the PRIMARY SOURCE OF TRUTH for the visual design.
+
+The 4 frames represent different views/states of the SAME portfolio:
+- Desktop Light Mode
+- Desktop Light Mode continuation
+- Desktop Dark Mode
+- Mobile
+
+DO NOT create 4 separate websites.
+Combine them into ONE complete portfolio website.
+
+==================================================
+1. CORE REQUIREMENT
+==================================================
+
+Convert the provided Figma design into a fully functional interactive one-page portfolio website.
+
+Preserve the existing Figma design as accurately as possible.
+
+Do NOT redesign the visual interface.
+
+Preserve:
+- Layout
+- Typography
+- Font hierarchy
+- Colors
+- Spacing
+- Border radius
+- Card styles
+- Button styles
+- Navigation
+- Section order
+- Visual hierarchy
+- Icons
+- Overall proportions
+
+Only make changes when necessary to make the website responsive, accessible, or functional.
+
+The final result should look like the provided Figma design, not like a generic AI-generated portfolio template.
+
+==================================================
+2. WEBSITE STRUCTURE
+==================================================
+
+Create ONE continuous scrolling page with these sections in this exact order:
+
+1. Navbar
+2. Hero / Personal Information
+3. About Me
+4. Education
+5. Skills & Technologies
+6. Featured Projects
+7. Contact
+8. Footer
+
+Use semantic section IDs:
+
+#info
+#education
+#skills
+#projects
+#contact
+
+The navbar must scroll smoothly to the corresponding section.
+
+==================================================
+3. NAVBAR
+==================================================
+
+Implement the navbar based on the Figma design.
+
+Content:
+
+Logo:
+"HinTran"
+
+Navigation:
+- Info
+- Education
+- Skills
+- Projects
+- Contact
+
+Right side:
+- Language switcher
+- Light / Dark mode toggle
+
+Requirements:
+- Sticky/fixed while scrolling
+- Smooth scrolling
+- Active navigation state based on the current section
+- Subtle background/blur effect when scrolling
+- Responsive mobile navigation
+- Mobile hamburger menu
+- Close mobile menu after selecting a navigation item
+
+Do not change the visual style from the Figma design.
+
+==================================================
+4. HERO / PERSONAL INFORMATION
+==================================================
+
+Use the exact information and visual structure from the Figma design.
+
+Name:
+TRẦN THỊ THÚY HIỀN
+
+Title:
+Fullstack Developer
+
+Personal information:
+- Birth: 7/9/2005
+- Gender: Female
+- Email: thuyhien2005lv@gmail.com
+- Phone: 0978 910 289
+- Address: Ninh Kieu, Can Tho City
+- LinkedIn: http:///
+
+Use the profile image/avatar area from the Figma design.
+
+Add functional CTA buttons if present in the design:
+- View My Projects
+- Contact Me
+
+The buttons must scroll to the correct sections.
+
+Do not invent additional personal information.
+
+==================================================
+5. ABOUT ME
+==================================================
+
+Use the About Me section from the Figma design.
+
+Keep the existing text and visual hierarchy.
+
+Display the three main areas:
+
+- Frontend Development
+- Backend Development
+- Database & System Design
+
+Cards should be interactive with subtle hover effects.
+
+Do not exaggerate skill levels or invent statistics.
+
+==================================================
+6. EDUCATION
+==================================================
+
+Use the Education design from the Figma frames.
+
+Education information:
+
+University:
+Can Tho University
+
+Major:
+Software Engineering
+
+Support the following fields if they exist in the design:
+- GPA
+- Total GPA
+- Begin
+- Finish
+
+If a value is not provided in the Figma design, do not invent it.
+
+Keep the timeline/card design from Figma.
+
+==================================================
+7. SKILLS & TECHNOLOGIES
+==================================================
+
+Use the existing Skills & Technologies design.
+
+Organize skills into the categories shown in the Figma design:
+
+Frontend
+Backend
+Database
+Tools
+Languages
+
+Use the technologies already represented in the design, including where applicable:
+
+Frontend:
+- ReactJS
+- TypeScript
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+- Vite
+- React Router
+
+Backend:
+- Java
+- Spring Boot
+- Spring Security
+- Node.js
+
+Database:
+- PostgreSQL
+- MySQL
+- MongoDB
+- PostGIS
+
+Tools:
+- Git
+- GitHub
+- VS Code
+- IntelliJ IDEA
+- Postman
+- QGIS
+
+Languages:
+- Java
+- JavaScript
+- TypeScript
+- SQL
+
+Use compact skill chips/cards matching the Figma design.
+
+Do NOT use percentage skill bars.
+
+Add subtle hover interaction.
+
+==================================================
+8. FEATURED PROJECTS
+==================================================
+
+Create the Featured Projects section according to the Figma design.
+
+Use the projects shown in the design.
+
+Each project card should contain:
+
+- Project image
+- Project name
+- Role / position
+- Short description
+- Technologies
+- Repository link
+- View Project button if present
+
+Project cards must be responsive.
+
+Desktop:
+3 columns where appropriate.
+
+Tablet:
+2 columns.
+
+Mobile:
+1 column.
+
+Hover effect:
+- Subtle elevation
+- Slight image scale
+- Border/highlight transition
+
+Do not create fake project information that does not exist in the design.
+
+If a URL is missing, do not invent one.
+
+==================================================
+9. CONTACT SECTION
+==================================================
+
+Implement the Contact section from the Figma design.
+
+Display contact information:
+- Email
+- Phone
+- LinkedIn
+- GitHub
+
+Create the contact form:
+
+Fields:
+- Name
+- Email
+- Message
+
+Button:
+"Send Message"
+
+The form must have:
+- Labels
+- Focus states
+- Validation
+- Required fields
+- Clear error states
+- Success state after submission
+
+Because there is no backend, do not pretend that a real email was sent.
+
+For now, implement the UI interaction and a realistic success confirmation.
+
+==================================================
+10. FOOTER
+==================================================
+
+Use the footer design from Figma.
+
+Content:
+
+HinTran
+
+© 2026 HinTran. All rights reserved.
+
+Include social links/icons if they exist in the design.
+
+Add a back-to-top button.
+
+Back-to-top must smoothly scroll to the top.
+
+==================================================
+11. LIGHT / DARK MODE
+==================================================
+
+This is a REQUIRED FUNCTIONAL FEATURE.
+
+The attached Desktop Light and Desktop Dark frames represent the two visual states of the SAME website.
+
+Implement a real theme toggle.
+
+Light mode must match the Light Mode Figma frame.
+
+Dark mode must match the Dark Mode Figma frame.
+
+Do not simply invert colors.
+
+Preserve the specific dark colors, surfaces, text colors, borders and accent colors shown in the Figma design.
+
+The theme toggle must work globally across the entire page.
+
+It must update:
+- Navbar
+- Hero
+- About
+- Education
+- Skills
+- Projects
+- Contact
+- Footer
+- Forms
+- Buttons
+- Cards
+
+Use a smooth but subtle transition.
+
+Persist the selected theme during the session.
+
+==================================================
+12. LANGUAGE SWITCHER
+==================================================
+
+Implement a real language switcher:
+
+EN | VI
+
+Default language:
+English.
+
+When switching to Vietnamese, translate ALL UI content:
+
+- Navbar
+- Hero
+- About
+- Education
+- Skills
+- Projects
+- Contact
+- Footer
+- Buttons
+- Form labels
+- Validation messages
+- Success messages
+
+Do NOT translate:
+- Personal name
+- Technology names
+- Email addresses
+- URLs
+- GitHub repository names
+
+The language switch must happen without page reload.
+
+The layout must remain stable after translation.
+
+==================================================
+13. RESPONSIVE DESIGN
+==================================================
+
+The Mobile Figma frame is the PRIMARY reference for mobile.
+
+The Desktop Figma frames are the PRIMARY reference for desktop.
+
+Implement responsive behavior for:
+
+Desktop:
+1440px and above
+
+Tablet:
+768px–1199px
+
+Mobile:
+375px–767px
+
+Desktop:
+- Full navbar
+- Multi-column project layout
+- Two-column hero where shown
+- Multi-column skill layout
+
+Tablet:
+- Adapt spacing and columns
+- Maintain visual hierarchy
+
+Mobile:
+- Hamburger navigation
+- Single-column layout
+- Center or left alignment according to Figma mobile design
+- Projects become one column
+- Skills become responsive
+- Contact form becomes one column
+- Buttons remain easily tappable
+- No horizontal scrolling
+- No text overflow
+
+Do not simply scale the desktop design down.
+Use the attached Mobile Figma frame as the actual mobile design reference.
+
+==================================================
+14. ANIMATIONS & INTERACTIONS
+==================================================
+
+Add subtle professional interactions.
+
+Required:
+- Smooth scrolling
+- Navbar scroll behavior
+- Mobile menu animation
+- Theme toggle animation
+- Language switch transition
+- Button hover
+- Button pressed state
+- Skill card hover
+- Project card hover
+- Section reveal animation
+- Back-to-top interaction
+- Form validation interaction
+
+Animations must be:
+- Fast
+- Smooth
+- Professional
+- Subtle
+
+Do NOT use excessive animations, bouncing effects, flashy effects or distracting parallax.
+
+==================================================
+15. ACCESSIBILITY
+==================================================
+
+Follow good accessibility practices.
+
+Requirements:
+- Semantic HTML
+- Proper heading hierarchy
+- Accessible buttons
+- Keyboard focus states
+- Form labels
+- Sufficient color contrast
+- Accessible navigation
+- Appropriate aria-labels for icon-only buttons
+- Mobile touch targets large enough to use comfortably
+
+==================================================
+16. CODE QUALITY
+==================================================
+
+Create a clean, maintainable implementation.
+
+Use reusable components.
+
+Recommended component structure:
+
+App
+├── Navbar
+├── HeroSection
+├── AboutSection
+├── EducationSection
+├── SkillsSection
+├── ProjectsSection
+├── ContactSection
+└── Footer
+
+Use reusable components for:
+- Buttons
+- Skill cards
+- Project cards
+- Social links
+- Form fields
+
+Do not duplicate large blocks of markup unnecessarily.
+
+Keep content/data separate from presentation where practical.
+
+==================================================
+17. DESIGN SYSTEM
+==================================================
+
+Follow the existing Figma color system.
+
+Primary colors:
+
+#0D47A1
+#2196F3
+#90CAF9
+#E3F2FD
+
+Do not introduce unrelated colors unless required for accessibility or form validation.
+
+Maintain consistent:
+- spacing
+- typography
+- border radius
+- shadows
+- buttons
+- cards
+
+The blue visual identity must remain consistent throughout the website.
+
+==================================================
+18. IMPORTANT DESIGN FIDELITY RULE
+==================================================
+
+The Figma frames are the source of truth.
+
+If there is a conflict between this prompt and the Figma design:
+
+PRIORITIZE THE Figma design for visual appearance.
+
+Do not create a generic portfolio.
+
+Do not add:
+- unnecessary statistics
+- fake testimonials
+- fake achievements
+- fake certifications
+- fake social media
+- fake project information
+- unnecessary sections
+
+Only implement features requested in this prompt or represented in the Figma design.
+
+==================================================
+19. FINAL QUALITY CHECK
+==================================================
+
+Before finishing, verify the entire website.
+
+Check:
+
+[ ] All sections exist
+[ ] Navbar works
+[ ] Smooth scrolling works
+[ ] Hero buttons work
+[ ] Projects navigation works
+[ ] Contact navigation works
+[ ] Mobile menu works
+[ ] Light mode works
+[ ] Dark mode works
+[ ] EN/VI switching works
+[ ] Contact form validation works
+[ ] Contact form success state works
+[ ] Project cards are responsive
+[ ] Skills are responsive
+[ ] Desktop matches Figma
+[ ] Dark mode matches Figma
+[ ] Mobile matches Figma
+[ ] No horizontal overflow
+[ ] No broken layouts
+[ ] No fake content
+[ ] All interactive elements have hover/focus states
+
+Finally, perform a visual fidelity pass against all 4 attached Figma frames and correct any major differences in:
+- spacing
+- sizing
+- alignment
+- typography
+- colors
+- card dimensions
+- responsive behavior
+
+The final result should be a polished, modern, professional Fullstack Developer portfolio that closely matches the provided Figma designs and is fully usable as a real website.
