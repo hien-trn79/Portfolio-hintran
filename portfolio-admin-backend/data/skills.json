@@ -2,26 +2,46 @@
   {
     "id": 1,
     "category": "Frontend",
-    "skills": ["ReactJS", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Vite", "React Router"]
+    "skills": [
+      "ReactJS",
+      "Tailwind CSS",
+      "Vite"
+    ]
   },
   {
     "id": 2,
     "category": "Backend",
-    "skills": ["Java", "Spring Boot", "Spring Security", "Node.js"]
+    "skills": [
+      "Node.js",
+      "Java Spring Boot"
+    ]
   },
   {
     "id": 3,
     "category": "Database",
-    "skills": ["PostgreSQL", "MySQL", "MongoDB", "PostGIS"]
+    "skills": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB"
+    ]
   },
   {
     "id": 4,
     "category": "Tools",
-    "skills": ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "Postman", "QGIS"]
+    "skills": [
+      "Git",
+      "Postman",
+      "QGIS"
+    ]
   },
   {
     "id": 5,
     "category": "Languages",
-    "skills": ["Java", "JavaScript", "TypeScript", "SQL", "C"]
+    "skills": [
+      "Java",
+      "JavaScript",
+      "SQL",
+      "C"
+    ]
   }
 ]

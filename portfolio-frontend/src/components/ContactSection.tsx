@@ -51,17 +51,25 @@ export function ContactSection({ dark, lang, me, t }: ContactSectionProps) {
       icon: <MailIcon18 color={iconColor} />,
       label: tr.emailLabel,
       value: me?.email || 'thuyhien2005lv@gmail.com',
+      href: `mailto:${me?.email || 'thuyhien2005lv@gmail.com'}`,
     },
-    { icon: <PhoneIcon18 color={iconColor} />, label: tr.phoneLabel, value: me?.phoneNumber || '0978 910 289' },
+    {
+      icon: <PhoneIcon18 color={iconColor} />,
+      label: tr.phoneLabel,
+      value: me?.phoneNumber || '0978 910 289',
+      href: `tel:${(me?.phoneNumber || '0978 910 289').replace(/[^\d+]/g, '')}`,
+    },
     {
       icon: <LinkedinIcon18 color={iconColor} />,
       label: tr.linkedinLabel,
       value: me?.linkedin || 'linkedin.com/in/hintran',
+      href: `https://${(me?.linkedin || 'linkedin.com/in/hintran').replace(/^https?:\/\//, '')}`,
     },
     {
       icon: <GithubIcon18 color={iconColor} />,
       label: tr.githubLabel,
       value: me?.github || 'github.com/hintran',
+      href: `https://${(me?.github || 'github.com/hintran').replace(/^https?:\/\//, '')}`,
     },
   ]
 
@@ -79,14 +87,20 @@ export function ContactSection({ dark, lang, me, t }: ContactSectionProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left: contact info */}
           <div className="flex flex-col gap-8">
-            {contactItems.map(({ icon, label, value }) => (
-              <div key={label} className="flex gap-4 items-center">
+            {contactItems.map(({ icon, label, value, href }) => (
+              <a
+                key={label}
+                href={href}
+                target={href.startsWith('http') ? '_blank' : undefined}
+                rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                className="group flex min-w-0 gap-4 items-center rounded-2xl p-2 -m-2 transition-colors hover:bg-[rgba(33,150,243,0.08)]"
+              >
                 <div
                   className={`${iconBg} flex items-center justify-center rounded-[20px] size-[40px] flex-shrink-0`}
                 >
                   {icon}
                 </div>
-                <div>
+                <div className="min-w-0">
                   <p
                     className={`font-normal text-[12px] font-['Inter',sans-serif] ${textSecondary}`}
                   >
@@ -95,10 +109,12 @@ export function ContactSection({ dark, lang, me, t }: ContactSectionProps) {
                   <p
                     className={`font-semibold text-[15px] font-['Inter',sans-serif] ${textPrimary}`}
                   >
-                    {value}
+                    <span className="break-words group-hover:text-[#2196f3] transition-colors">
+                      {value}
+                    </span>
                   </p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
           {/* Right: form */}
@@ -188,4 +204,3 @@ export function ContactSection({ dark, lang, me, t }: ContactSectionProps) {
     </section>
   )
 }
-

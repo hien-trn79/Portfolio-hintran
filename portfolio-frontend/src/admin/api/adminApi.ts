@@ -16,6 +16,7 @@ async function request<T>(url: string, options?: RequestInit): Promise<T> {
 
 // ─── Me ─────────────────────────────────────────────────────────────────────
 export interface MeData {
+  profileImage?: string
   fullName: string
   birthDate: string
   gender: string
@@ -59,6 +60,7 @@ export interface ProjectContentLocalized {
 
 export interface ProjectData {
   id: number
+  img?: string
   github: string
   tags: string[]
   isFeatured: boolean
@@ -77,6 +79,11 @@ export const projectsApi = {
     request<ProjectData>(`${BASE_URL}/projects/${id}`, {
       method: 'PUT',
       body: JSON.stringify(data),
+    }),
+  reorder: (ids: number[]) =>
+    request<ProjectData[]>(`${BASE_URL}/projects/reorder`, {
+      method: 'PUT',
+      body: JSON.stringify({ ids }),
     }),
   delete: (id: number) =>
     request<{ success: boolean }>(`${BASE_URL}/projects/${id}`, { method: 'DELETE' }),

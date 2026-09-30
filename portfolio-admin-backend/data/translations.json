@@ -23,7 +23,7 @@
     },
     "about": {
       "title": "About Me",
-      "subtitle": "Fourth-year Software Engineering student at Can Tho University (GPA: 3.89/4.0), specializing in WebGIS and Spatial Data Engineering. Led the back-end and mapping development of CTU Campus 3D Map, an indoor/outdoor navigation system that converts AutoCAD architectural blueprints into structured GIS layers and renders interactive 3D maps with MapLibre GL JS, powered by A*/Dijkstra routing on PostgreSQL/PostGIS and GeoServer for real-time route updates. Also built the full-stack backend for ReGreen, an AI-powered sustainable e-commerce platform, delivering 50+ RESTful APIs with Java/Spring Boot and integrating a RAG-based AI chatbot (Spring AI, Gemini, pgvector) for citation-backed recommendations. Combines strong spatial engineering skills with full-stack development experience, aiming to contribute as a WebGIS/GIS Engineer Intern building scalable, location-based solutions.",
+      "subtitle": "I am a final-year Software Engineering student at Can Tho University. I am passionate about the role of a Full-Stack Developer and eager to build and develop software within a professional, standardized workflow. Furthermore, I am committed to continuous learning and am always ready to acquire new knowledge relevant to my work or studies.",
       "frontend": "Frontend Development",
       "frontendDesc": "Building fluid, highly responsive user interfaces using React, TypeScript, and modern styling solutions like Tailwind CSS.",
       "backend": "Backend Development",
@@ -36,8 +36,8 @@
       "university": "Can Tho University",
       "major": "Software Engineering",
       "gpa": "Cumulative GPA:",
-      "currentGpa": "3.89",
-      "period": "2023 – Present"
+      "currentGpa": "3.9",
+      "period": "2023 – 2027"
     },
     "skills": {
       "title": "Skills & Technologies"
@@ -92,7 +92,7 @@
     "hero": {
       "role": "FULLSTACK DEVELOPER",
       "name": "TRẦN THỊ THÚY HIỀN",
-      "subtitle": "Sinh viên Kỹ thuật Phần mềm & Nhà phát triển Fullstack",
+      "subtitle": "Sinh viên ngành Kỹ thuật phần mềm",
       "birth": "Ngày sinh",
       "gender": "Giới tính",
       "email": "Email",
@@ -105,11 +105,11 @@
     },
     "about": {
       "title": "Về Tôi",
-      "subtitle": "Sinh viên năm 4 ngành Kỹ thuật Phần mềm tại Trường Đại học Cần Thơ (GPA: 3.89/4.0), chuyên sâu về WebGIS và Kỹ thuật Dữ liệu Không gian. Đảm nhận vai trò phát triển back-end và bản đồ chính cho dự án CTU Campus 3D Map — hệ thống định vị trong/ngoài nhà, chuyển đổi bản vẽ kiến trúc AutoCAD thành các lớp dữ liệu GIS có cấu trúc và hiển thị bản đồ 3D tương tác bằng MapLibre GL JS, kết hợp thuật toán định tuyến A*/Dijkstra trên PostgreSQL/PostGIS và GeoServer để cập nhật lộ trình theo thời gian thực. Đồng thời xây dựng phần backend cho ReGreen, nền tảng thương mại điện tử bền vững tích hợp AI, với hơn 50 RESTful API bằng Java/Spring Boot và chatbot AI theo mô hình RAG (Spring AI, Gemini, pgvector) đưa ra gợi ý có trích dẫn nguồn. Kết hợp năng lực kỹ thuật không gian vững chắc với kinh nghiệm phát triển full-stack, mong muốn đóng góp ở vị trí WebGIS/GIS Engineer Intern để xây dựng các giải pháp định vị có khả năng mở rộng.",
-      "frontend": "Phát triển Frontend",
+      "subtitle": "Mình là sinh viên năm cuối ngành Kỹ thuật phần mềm tại Đại học Cần Thơ. Với niềm đam mê vị trí Fullstack Developer và được xây dựng, phát triển phần mềm trong một quy trình chuẩn chuyên nghiệp. Bên cạnh đó, mình luôn luôn phấn đấu học hỏi thêm mỗi ngày, sẵn sàng học tập bất kỳ kiến thức nào liên quan đến công việc hoặc học tập đang thực hiện.",
+      "frontend": "Lập trình viên Frontend",
       "frontendDesc": "Xây dựng giao diện người dùng mượt mà, đáp ứng cao bằng React, TypeScript và các giải pháp tạo kiểu hiện đại như Tailwind CSS.",
-      "backend": "Phát triển Backend",
-      "backendDesc": "Phát triển RESTful API hiệu suất cao, mạnh mẽ và bảo mật bằng Java Spring Boot, Node.js và ánh xạ quan hệ đối tượng.",
+      "backend": "Lập trình viên Backend",
+      "backendDesc": "Phát triển RESTful API hiệu suất cao, mạnh mẽ và bảo mật bằng Java Spring Boot hoặc Node.js và ánh xạ quan hệ đối tượng.",
       "database": "Cơ sở dữ liệu & Thiết kế hệ thống",
       "databaseDesc": "Thiết kế schema cơ sở dữ liệu có thể mở rộng, phân tích truy vấn và cấu trúc chỉ mục tối ưu với MySQL và PostgreSQL."
     },
@@ -118,8 +118,8 @@
       "university": "Trường Đại học Cần Thơ",
       "major": "Kỹ thuật Phần mềm",
       "gpa": "GPA tích lũy:",
-      "currentGpa": "3.89",
-      "period": "2023 – Hiện tại"
+      "currentGpa": "3.9",
+      "period": "2023 – 2027 "
     },
     "skills": {
       "title": "Kỹ Năng & Công Nghệ"
@@ -141,12 +141,12 @@
       "close": "Đóng"
     },
     "contact": {
-      "title": "Hãy Cùng Làm Việc",
-      "subtitle": "Hãy liên hệ nếu bạn muốn thảo luận về dự án, cơ hội thực tập hoặc hợp tác.",
+      "title": "Cùng nhau trở thành đồng đội",
+      "subtitle": "Bạn có thể liên hệ tôi bất kỳ hình thức nào, tôi luôn sẵn sàng giải đáp, trao đổi bất kỳ lúc nào.",
       "emailLabel": "GỬI EMAIL CHO TÔI",
       "phoneLabel": "GỌI CHO TÔI",
-      "linkedinLabel": "KẾT NỐI VỚI TÔI",
-      "githubLabel": "XEM REPOS CỦA TÔI",
+      "linkedinLabel": "KẾT NỐI VỚI LINKEDIN TÔI",
+      "githubLabel": "XEM REPO CỦA TÔI",
       "nameLabel": "Họ và tên",
       "namePlaceholder": "Nhập họ và tên",
       "emailField": "Địa chỉ Email",
