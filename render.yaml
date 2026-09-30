@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: portfolio-admin-backend
+    runtime: node
+    plan: starter
+    rootDir: portfolio-admin-backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/projects
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /var/data
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: AUTH_SECRET
+        sync: false
+    disk:
+      name: portfolio-data
+      mountPath: /var/data
+      sizeGB: 1
